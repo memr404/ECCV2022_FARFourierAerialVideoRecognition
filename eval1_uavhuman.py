@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import random
 
 #from models.i3d_resnet import * 
-from dataset.uav_human import UAVHumanDataSet
+from dataset.uavhuman import UAVHumanDataSet
 
 
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID" 

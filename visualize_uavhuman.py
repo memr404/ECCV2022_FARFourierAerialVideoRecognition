@@ -18,7 +18,7 @@ import os.path as osp
 import matplotlib.pyplot as plt
 import random
 
-from dataset.uav_human import UAVHumanDataSet
+from dataset.uavhuman import UAVHumanDataSet
 
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID" 
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
